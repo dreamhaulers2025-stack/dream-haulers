@@ -16,6 +16,17 @@ export default function Footer() {
           </ul>
         </div>
         <div>
+          <div className="footer-title">Company</div>
+          <ul className="footer-list">
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/privacy">Privacy</a></li>
+            <li><a href="/terms">Terms</a></li>
+          </ul>
+        </div>
+        <div>
           <div className="footer-title">Follow</div>
           <div className="socials">
             <a href="#" aria-label="LinkedIn">LinkedIn</a>

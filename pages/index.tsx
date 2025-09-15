@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Slider from '../components/Slider'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
             <a className="btn btn-primary" href="/contact">Request a Quote</a>
             <a className="btn btn-outline" href="/services">View Services</a>
           </div>
+          <Slider />
           <div className="features">
             <div className="card"><strong>Edmonton-based</strong><div>Serving Canada and the US</div></div>
             <div className="card"><strong>On-time delivery</strong><div>Professional dispatch and tracking</div></div>

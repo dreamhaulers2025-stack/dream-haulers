@@ -51,6 +51,18 @@ a {
 .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 24px; }
 .card { border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; }
 
+/* Slider */
+.slider { position: relative; margin-top: 28px; border-radius: 10px; overflow: hidden; border: 1px solid #e5e7eb; }
+.slider-viewport { position: relative; height: 320px; background: #f3f4f6; }
+.slide { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .6s ease; }
+.slide.is-active { opacity: 1; }
+.slider-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,.45); color: white; border: 0; width: 36px; height: 36px; border-radius: 18px; cursor: pointer; }
+.slider-btn.left { left: 10px; }
+.slider-btn.right { right: 10px; }
+.dots { position: absolute; bottom: 10px; left: 0; right: 0; display: flex; justify-content: center; gap: 6px; }
+.dot { width: 8px; height: 8px; border-radius: 4px; background: rgba(255,255,255,.6); border: 0; cursor: pointer; }
+.dot.is-active { background: #0ea5e9; }
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
