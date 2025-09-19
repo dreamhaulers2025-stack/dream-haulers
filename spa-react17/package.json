@@ -11,6 +11,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^17.0.73",
     "@types/react-dom": "^17.0.25",
+    "gh-pages": "^6.3.0",
     "history": "^4.10.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -23,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
