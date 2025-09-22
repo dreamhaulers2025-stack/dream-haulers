@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dream-haulers/static/css/main.09816b60.css",
-    "main.js": "/dream-haulers/static/js/main.0a3bb73d.js",
-    "static/js/453.74fb74f8.chunk.js": "/dream-haulers/static/js/453.74fb74f8.chunk.js",
-    "static/media/logo.jpg": "/dream-haulers/static/media/logo.50c0b9acba05126b5bba.jpg",
-    "index.html": "/dream-haulers/index.html",
-    "main.09816b60.css.map": "/dream-haulers/static/css/main.09816b60.css.map",
-    "main.0a3bb73d.js.map": "/dream-haulers/static/js/main.0a3bb73d.js.map",
-    "453.74fb74f8.chunk.js.map": "/dream-haulers/static/js/453.74fb74f8.chunk.js.map"
+    "main.css": "/static/css/main.09816b60.css",
+    "main.js": "/static/js/main.c3dc4807.js",
+    "static/js/453.74fb74f8.chunk.js": "/static/js/453.74fb74f8.chunk.js",
+    "static/media/logo.jpg": "/static/media/logo.50c0b9acba05126b5bba.jpg",
+    "index.html": "/index.html",
+    "main.09816b60.css.map": "/static/css/main.09816b60.css.map",
+    "main.c3dc4807.js.map": "/static/js/main.c3dc4807.js.map",
+    "453.74fb74f8.chunk.js.map": "/static/js/453.74fb74f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09816b60.css",
-    "static/js/main.0a3bb73d.js"
+    "static/js/main.c3dc4807.js"
   ]
 }
