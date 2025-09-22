@@ -12,8 +12,18 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
 function App() {
+  const deriveBase = () => {
+    const pub = process.env.PUBLIC_URL || '';
+    if (pub) {
+      const path = pub.replace(/^https?:\/\/[^/]+/, '');
+      return path || '/';
+    }
+    const guess = '/dream-haulers';
+    return window.location.pathname.startsWith(guess) ? guess : '/';
+  };
+
   return (
-    <Router>
+    <Router basename={deriveBase()}>
       <Header />
       <main className="site-main">
         <Switch>
@@ -24,6 +34,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/privacy" component={Privacy} />
           <Route path="/terms" component={Terms} />
+          <Route component={Home} />
         </Switch>
       </main>
       <Footer />

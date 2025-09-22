@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Slider from '../components/Slider';
 
 export default function Home() {
@@ -8,8 +9,8 @@ export default function Home() {
         <h1>Reliable Canada–US Trucking</h1>
         <p>Dry Van • Temperature-Controlled • LTL/FTL • Expedited • Warehousing</p>
         <div className="cta-row">
-          <a className="btn btn-primary" href="/contact">Request a Quote</a>
-          <a className="btn btn-outline" href="/services">View Services</a>
+          <Link className="btn btn-primary" to="/contact">Request a Quote</Link>
+          <Link className="btn btn-outline" to="/services">View Services</Link>
         </div>
         <Slider />
         <div className="features">
