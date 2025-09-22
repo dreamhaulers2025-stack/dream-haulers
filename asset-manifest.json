@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dream-haulers/static/css/main.09816b60.css",
-    "main.js": "/dream-haulers/static/js/main.71b4e660.js",
+    "main.js": "/dream-haulers/static/js/main.0a3bb73d.js",
     "static/js/453.74fb74f8.chunk.js": "/dream-haulers/static/js/453.74fb74f8.chunk.js",
     "static/media/logo.jpg": "/dream-haulers/static/media/logo.50c0b9acba05126b5bba.jpg",
     "index.html": "/dream-haulers/index.html",
     "main.09816b60.css.map": "/dream-haulers/static/css/main.09816b60.css.map",
-    "main.71b4e660.js.map": "/dream-haulers/static/js/main.71b4e660.js.map",
+    "main.0a3bb73d.js.map": "/dream-haulers/static/js/main.0a3bb73d.js.map",
     "453.74fb74f8.chunk.js.map": "/dream-haulers/static/js/453.74fb74f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09816b60.css",
-    "static/js/main.71b4e660.js"
+    "static/js/main.0a3bb73d.js"
   ]
 }
